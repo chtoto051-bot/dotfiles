@@ -1,0 +1,38 @@
+# --- Поведение и история ---
+max-history=15
+sort=-time
+default-timeout=7000
+ignore-timeout=0
+
+# --- Размеры и позиционирование ---
+anchor=top-right
+width=340
+height=110
+margin=12,15,0,0
+padding=12
+border-size=2
+border-radius=10
+
+# --- Шрифт и иконки ---
+font=JetBrainsMonoNF-Regular 10
+max-icon-size=48
+icon-location=left
+
+# --- Цвета под тему (Neon/Cyan) ---
+# Темно-синий полупрозрачный фон в тон Kitty
+background-color=#0e141de6
+
+# Основной текст
+text-color=#c0caf5
+
+# Неоновый голубой бордер (как col.active_border в Hyprland)
+border-color=#33ccff
+
+# --- Специфичные правила по приоритетам ---
+[urgency=low]
+border-color=#595959
+default-timeout=4000
+
+[urgency=high]
+border-color=#ff5555
+default-timeout=0

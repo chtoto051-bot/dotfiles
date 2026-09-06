@@ -1,0 +1,13 @@
+mode=drun
+show=drun
+width=400
+height=350
+always_parse_args=true
+show_all=false
+print_command=true
+insensitive=true
+prompt=Поиск...
+no_actions=true
+halign=fill
+orientation=vertical
+insert_at_top=true
